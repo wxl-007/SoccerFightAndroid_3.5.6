@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{32EA1FBB-407C-C29A-FE61-84E7727C3739}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_6;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_ANDROID;ENABLE_GENERICS;ENABLE_TERRAIN;ENABLE_WEBCAM;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Unity3.5.6/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Unity3.5.6/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\MultiPlatformToolSuite\Scripts\AspectRatios.cs" />
+     <Compile Include="Assets\MultiPlatformToolSuite\Scripts\MeshSwapExample.cs" />
+     <Compile Include="Assets\MultiPlatformToolSuite\Scripts\PlatformSpecifics.cs" />
+     <Compile Include="Assets\MultiPlatformToolSuite\Scripts\Platforms.cs" />
+     <Compile Include="Assets\MultiPlatformToolSuite\Scripts\RenderQueueSorter.cs" />
+     <Compile Include="Assets\MultiPlatformToolSuite\Scripts\VerySimpleXml.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\AIController.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\AvatarController.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\CompetenceController.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\Controller2D.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\ControllerAnimation.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\ControllerPushBodies.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\ControllerSoundTriggers.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\GUICameraController.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\GameCameraController.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\GameController.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\GameScoreController.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\GlobalManager.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\InputController.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\KickColliderController.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\LevelLockController.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\LoadMainMenuController.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\LoadSceneController.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\PropsController.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\SoundController.cs" />
+     <Compile Include="Assets\_Scripts\Controllers\TestController.cs" />
+     <Compile Include="Assets\_Scripts\Effect\CameraController.cs" />
+     <Compile Include="Assets\_Scripts\Effect\CollisionSoundEffect.cs" />
+     <Compile Include="Assets\_Scripts\Effect\EffectBulletSimple.cs" />
+     <Compile Include="Assets\_Scripts\FullScreenControll.cs" />
+     <Compile Include="Assets\_Scripts\GlobalScene.cs" />
+     <Compile Include="Assets\_Scripts\Menu\IAPController.cs" />
+     <Compile Include="Assets\_Scripts\Menu\MainMenuController.cs" />
+     <Compile Include="Assets\_Scripts\NetWorkControll.cs" />
+     <Compile Include="Assets\_Scripts\NetworkRigidbody.cs" />
+     <Compile Include="Assets\_Scripts\Platform2D.cs" />
+     <Compile Include="Assets\_Scripts\PlatformOnly.cs" />
+     <Compile Include="Assets\_Scripts\PressParticle.cs" />
+     <Compile Include="Assets\_Scripts\Robot\RobotBase.cs" />
+     <Compile Include="Assets\_Scripts\Robot\RobotFire.cs" />
+     <Compile Include="Assets\_Scripts\_new\DontGoThroughThings.cs" />
+     <Compile Include="Assets\_Scripts\_new\Football.cs" />
+     <Compile Include="Assets\_Scripts\_new\GUIDebug.cs" />
+     <Compile Include="Assets\_Scripts\_new\LevelAttributes.cs" />
+     <Compile Include="Assets\_Scripts\_new\PlayerMovementSingle.cs" />
+     <Compile Include="Assets\_Scripts\_new\PlayerSelect.cs" />
+     <Compile Include="Assets\_Scripts\_new\RogueAI.cs" />
+     <Compile Include="Assets\_Scripts\iTween.cs" />
+     <None Include="Assets\Plugins\AnBSoft Common\Standard Font\Arial, Fancy.txt" />
+     <None Include="Assets\_Artwork\fonts\digit.txt" />
+     <None Include="Assets\_Artwork\fonts\font.txt" />
+     <None Include="Assets\Plugins\AnBSoft Common\Standard Shaders\Sprite Vertex Colored, Fast.shader" />
+     <None Include="Assets\Plugins\AnBSoft Common\Standard Shaders\Sprite Simple Texture .shader" />
+     <None Include="Assets\MultiPlatformToolSuite\Editor\Build Resources\PostProcessAppleScript.txt" />
+     <None Include="Assets\Shaders\Sprite Cutout.shader" />
+     <None Include="Assets\_____Doc\Requirements.txt" />
+     <None Include="Assets\MultiPlatformToolSuite\readme.txt" />
+     <None Include="Assets\_____Doc\菜单汉化.txt" />
+     <None Include="Assets\Shaders\Transparent Vertex Colored.shader" />
+     <None Include="Assets\MultiPlatformToolSuite\Editor\AssetSettings\AssetSettings.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{7CE06680-7851-3C95-91F9-9CA50273B9DC}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

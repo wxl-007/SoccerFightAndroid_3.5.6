@@ -1,0 +1,155 @@
+说明:
+1.所有按钮的_f2,_f3 状态的字和默认的一致
+2.直接修改_Artwork目录里的图片,以保持目录结构和图片名.
+
+GUI/Common/
+	btn_back 返回
+GUI/GetFullVersion
+	btn_full_version 完整版
+	btn_get_it_now   立即购买
+	btn_later        稍后再说
+	full_version_bg  劲爆足球
+	full_version_txt 
+		         完整版
+		         - 增加多个角色
+		         - 增加更多技能点功能
+		         - 支持网络对战, 包括 iPhone vs iPad
+		         - 增加更多关卡 
+
+GUI/Menu1_Main
+	btn_moregame 		更多游戏
+	btn_mulitplayer 	联网对战
+	btn_singleplayer 	单人模式
+	main1_bg		劲爆足球
+	   	   
+GUI/Menu2_0selectplayer
+	btn_back		返回
+	btn_buy			购买
+	btn_go			开始
+	btn_store		商店
+	
+GUI/Menu2_1_0_unlock_tips
+	btn_unlock_tip_contine  点击继续
+	btn_unlock_tip_ok	好
+	unlock_tips_01		
+				欢迎进入劲爆足球游戏!
+				第一次进行游戏时，系统会随机分配2个角色给您.
+	unlock_tips_02	
+				恭喜!
+				已经为您解锁了2个角色.
+
+GUI/Menu2_1_1 store
+	btn_back		返回
+	btn_buy			购买
+	Menu2_1_1 store_bg1	商店
+	Menu2_1_1 store_bg2	商店
+	
+
+GUI/Menu_2_1_1 unlock
+	btn_cancel 		取消
+	btn_nothanks		不,谢谢
+	btn_yes			好
+	btn_yesplease		确定
+	Menu2_1_1 unlock	是否使用以下金币来解锁?
+	Menu2_1_1 unlock2	您需要更多的金币, 是否现在购买?
+	Menu2_1_1-text_NeedMoreCoins  您需要更多的金币, 是否现在购买?
+	Menu2_1_1-text_unlock 是否使用以下金币来解锁?
+
+GUI/Menu2_2 skillpoints
+	btn_back		返回
+	btn_buy			购买
+	btn_go			开始
+	btn_store		商店
+	Menu2_2 skillpoints_bg  
+				攻击速度
+				防御速度
+				跳跃高度
+				必杀技	
+
+	btn_upbox_buy_points	购买点数
+	btn_upbox_cancel	取消
+	txt-Upgrade_NextLevelRequire	下一关需要:
+	txt-Upgrade_title	升级
+	upgrade_box_bg		
+				升级
+				下一关需要:
+
+GUI/Menu3 selectepisoed
+	btn_back 		返回
+	txt_level_select	关卡选择
+
+
+GUI/Menu5_1 game
+	golden_goal		金球
+	popText_Go		开始
+	popText_Goal		金球
+	ui_help01		
+				基本操作说明
+				在左边屏幕点击并拖动来移动.
+				踢
+				跳
+
+	ui_help02		必杀技
+				通过踢球或运球来积蓄能量. 当能量满且球在身边时, 点击这个按纽来使用必杀技.
+
+	ui_help03		道具
+				当球碰到这些道具时,会有特殊效果。
+				 
+
+GUI/Menu5_1 gamepause
+	btn_Back to Menu	菜单
+	btn_Restart		重新开始
+	btn_resume		继续
+	
+GUI/Menu5_2
+	btn_Back to Menu	菜单
+	btn_next_match		下一场比赛
+	btn_restart		重新开始
+	Menu5_2_fail_bg		失败
+	Menu5_2_win_bg		胜利
+
+
+GUI/Menu7MultiPlayers
+	7_0_BG1			网络对战
+	7_0_BG2			网络对战
+	menu7_0_bg		网络对战
+	btn_back		返回
+	btn_create server	创建房间
+	btn_help		帮助
+	btn_join server		加入房间
+
+	help_network		
+				如何连接两台设备
+				- 2台iOS设备处于同一个WiFi网络
+				- 其中一台设备选择'创建房间'
+				- 另外一台设备选择'加入房间', 等待游戏开始
+				- 如果房间列表显示为空, 可以选择'手动连接',输入房间IP.
+
+	menu7_1_bg		网络对战
+	startornot		已经加入. 现在开始游戏?
+	waiting 		等待玩家加入
+	
+	7_2_bg			网络对战
+	7_21searcching		搜寻房间...
+	7_22_fail		连接失败
+	7_22_join		加入
+	7_22_join game		加入游戏
+	7_22_join_disable	加入
+	7_22fail close		关闭
+	btn_manual connect	手动连接
+	
+	7_3connect		连接
+	7_3enter server_bg2	输入房间IP
+	7_21searcching		搜寻房间...
+	theotherhasleft		另外一个玩家已经离开游戏
+
+GUI/Others
+	loading 		加载中...
+
+
+				
+				
+	
+
+
+

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{0594B835-E138-1743-7439-F48307D9D6CD}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_6;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_ANDROID;ENABLE_GENERICS;ENABLE_TERRAIN;ENABLE_WEBCAM;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_DUCK_TYPING</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Unity3.5.6/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Unity3.5.6/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Editor\AnBSoft\Editors\SpriteTimelineEditor.cs" />
+     <Compile Include="Assets\Editor\AnBSoft\Editors\UICtlEditor.cs" />
+     <Compile Include="Assets\Editor\AnBSoft\Editors\UIPanelEditor.cs" />
+     <Compile Include="Assets\Editor\AnBSoft\Inspectors\UIActionBtnInspector.cs" />
+     <Compile Include="Assets\Editor\AnBSoft\Inspectors\UIBistateInteractivePanelInspector.cs" />
+     <Compile Include="Assets\Editor\AnBSoft\Inspectors\UIBtnChangePanelInspector.cs" />
+     <Compile Include="Assets\Editor\AnBSoft\Inspectors\UIBtnLoadSceneInspector.cs" />
+     <Compile Include="Assets\Editor\AnBSoft\Inspectors\UIBtnWWWInspector.cs" />
+     <Compile Include="Assets\Editor\AnBSoft\Inspectors\UIButton3DInspector.cs" />
+     <Compile Include="Assets\Editor\AnBSoft\Inspectors\UIButtonInspector.cs" />
+     <Compile Include="Assets\Editor\AnBSoft\Inspectors\UICtlInspector.cs" />
+     <Compile Include="Assets\Editor\AnBSoft\Inspectors\UIInteractivePanelInspector.cs" />
+     <Compile Include="Assets\Editor\AnBSoft\Inspectors\UIListButtonInspector.cs" />
+     <Compile Include="Assets\Editor\AnBSoft\Inspectors\UIListItemInspector.cs" />
+     <Compile Include="Assets\Editor\AnBSoft\Inspectors\UIPanelBaseInspector.cs" />
+     <Compile Include="Assets\Editor\AnBSoft\Inspectors\UIPanelInspector.cs" />
+     <Compile Include="Assets\Editor\AnBSoft\Inspectors\UIPanelTabInspector.cs" />
+     <Compile Include="Assets\Editor\AnBSoft\Inspectors\UIProgressBarInspector.cs" />
+     <Compile Include="Assets\Editor\AnBSoft\Inspectors\UIRadioBtn3DInspector.cs" />
+     <Compile Include="Assets\Editor\AnBSoft\Inspectors\UIRadioBtnInspector.cs" />
+     <Compile Include="Assets\Editor\AnBSoft\Inspectors\UISliderInspector.cs" />
+     <Compile Include="Assets\Editor\AnBSoft\Inspectors\UIStateToggleBtn3DInspector.cs" />
+     <Compile Include="Assets\Editor\AnBSoft\Inspectors\UIStateToggleBtnInspector.cs" />
+     <Compile Include="Assets\Editor\AnBSoft\Inspectors\UITextFieldInspector.cs" />
+     <Compile Include="Assets\Editor\AnBSoft\Wizards\About_EZ_GUI.cs" />
+     <Compile Include="Assets\Editor\AnBSoft\Wizards\About_SM2.cs" />
+     <Compile Include="Assets\Editor\AnBSoft\Wizards\BuildAtlases.cs" />
+     <Compile Include="Assets\Editor\AnBSoft\Wizards\CopyControl.cs" />
+     <Compile Include="Assets\Editor\AnBSoft\Wizards\CopyTransitions.cs" />
+     <Compile Include="Assets\Editor\AnBSoft\Wizards\SetRenderCamera.cs" />
+     <Compile Include="Assets\Editor\AnBSoft\Wizards\SpriteSizer.cs" />
+     <Compile Include="Assets\Editor\Prime31\P31MenuItem.cs" />
+     <Compile Include="Assets\Editor\Prime31\PListEditor.cs" />
+     <Compile Include="Assets\Editor\Prime31\Prime31PlistHelperWizard.cs" />
+     <Compile Include="Assets\Editor\QuickGUICreator.cs" />
+     <Compile Include="Assets\MultiPlatformToolSuite\Editor\AspectPerfect.cs" />
+     <Compile Include="Assets\MultiPlatformToolSuite\Editor\AssetSettings\Asset.cs" />
+     <Compile Include="Assets\MultiPlatformToolSuite\Editor\AssetSettings\AssetConfiguration.cs" />
+     <Compile Include="Assets\MultiPlatformToolSuite\Editor\AssetSettings\AssetConfigurationCompareWindow.cs" />
+     <Compile Include="Assets\MultiPlatformToolSuite\Editor\AssetSettings\AssetSettingsWindow.cs" />
+     <Compile Include="Assets\MultiPlatformToolSuite\Editor\AssetSettings\AudioAsset.cs" />
+     <Compile Include="Assets\MultiPlatformToolSuite\Editor\AssetSettings\TextureAsset.cs" />
+     <Compile Include="Assets\MultiPlatformToolSuite\Editor\Build Scripts\BuildProcess.cs" />
+     <Compile Include="Assets\MultiPlatformToolSuite\Editor\Build Scripts\PlatformBuildSettings.cs" />
+     <Compile Include="Assets\MultiPlatformToolSuite\Editor\Build Scripts\TextureAssetSettings.cs" />
+     <Compile Include="Assets\MultiPlatformToolSuite\Editor\EasyPlatform.cs" />
+     <Compile Include="Assets\MultiPlatformToolSuite\Editor\PlatformSpecificsEditor.cs" />
+     <None Include="Assets\Plugins\AnBSoft Common\Standard Font\Arial, Fancy.txt" />
+     <None Include="Assets\_Artwork\fonts\digit.txt" />
+     <None Include="Assets\_Artwork\fonts\font.txt" />
+     <None Include="Assets\Plugins\AnBSoft Common\Standard Shaders\Sprite Vertex Colored, Fast.shader" />
+     <None Include="Assets\Plugins\AnBSoft Common\Standard Shaders\Sprite Simple Texture .shader" />
+     <None Include="Assets\MultiPlatformToolSuite\Editor\Build Resources\PostProcessAppleScript.txt" />
+     <None Include="Assets\Shaders\Sprite Cutout.shader" />
+     <None Include="Assets\_____Doc\Requirements.txt" />
+     <None Include="Assets\MultiPlatformToolSuite\readme.txt" />
+     <None Include="Assets\_____Doc\菜单汉化.txt" />
+     <None Include="Assets\Shaders\Transparent Vertex Colored.shader" />
+     <None Include="Assets\MultiPlatformToolSuite\Editor\AssetSettings\AssetSettings.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{7CE06680-7851-3C95-91F9-9CA50273B9DC}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{32EA1FBB-407C-C29A-FE61-84E7727C3739}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
